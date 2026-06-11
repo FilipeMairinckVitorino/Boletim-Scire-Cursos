@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boletim Scire Cursos</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="shortcut icon" href="IMG/favicon.svg" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <img src="IMG/header.svg" alt="" id="forma">
+        <img src="IMG/Scire Logo.svg" alt="Scire" id="logo">
+    </header>
+    <main>
+        <section class="digitaCampos">
+            <section class="id">
+                <span class="id">Id</span>
+                <input type="text" class="id">
+            </section>
+            <section class="turma">
+                <span class="turma">Turma</span>
+                <input type="text" class="turma">
+            </section>
+            <button type="button" id="filtra"></button>
+        </section>
+        <section class="result">
+            <span class="turma"></span>
+            <section class="tabela">
+                <div class="carregamento"></div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th class="id">Id</th>
+                                <th class="nome">Nome</th>
+                                <th class="turma">Turma</th>
+                                <th class="bim1">1º Bimestre</th>
+                                <th class="bim2">2º Bimestre</th>
+                                <th class="bim3">3º Bimestre</th>
+                                <th class="bim4">4º Bimestre</th>
+                                <th class="media">Média</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="id"></td>
+                                <td class="nome"></td>
+                                <td class="turma"></td>
+                                <td class="bim1"></td>
+                                <td class="bim2"></td>
+                                <td class="bim3"></td>
+                                <td class="bim4"></td>
+                                <td class="media"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <a href="postAlunos.html">Cadastrar Novo Aluno</a>
+        <a href="postNotas.html">Notas</a>
+        <div class="autor">
+            <span class="autor">Created by Filipe Mairinck Vitorino</span>
+        </div>
+    </footer>
+
+<script type="module" src="Script/exportFunctions.js"></script>
+<script type="module" src="Script/API.js"></script>
+<script type="module" src="Script/scriptIndex.js"></script>
+<script src="Script/header.js"></script>
+</body>
+</html>
+<!-- © 2025 Filipe Mairinck Vitorino. Todos os direitos reservados. -->
