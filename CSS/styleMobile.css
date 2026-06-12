@@ -7,7 +7,7 @@
 
     header img#logo {
         width: 170px;
-        left: 28%;
+        left: 30%;
         top: 30px;
         transform: translateX(-50%);
     }
@@ -87,10 +87,6 @@
         max-width: 100%;
     }
 
-    button.post {
-        max-width: 90%;
-        box-sizing: border-box;
-    }
 }
 
 /* © 2025 Filipe Mairinck Vitorino. Todos os direitos reservados. */
